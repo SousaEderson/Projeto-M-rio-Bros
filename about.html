@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós</title>
+    <link rel="icon" href="./img/logo-header.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <div class="cabeca">
+        <img src="./img/logo-header.png" alt="logo mario">
+        <a href="./index.html">Início</a>
+        <a>Sobre Nós</a>
+        <a href="./services.html">Serviços</a>
+        <a onclick="mostrarForm()" class="fale-conosco">Fale Conosco</a>
+    </div>
+    
+    <div class="caixa-pai">
+        <div class="caixa-primaria">
+            <p class="fim">Mario e Luigi são irmãos italianos de Brooklyn, Nova York, conhecidos por suas habilidades em
+                encanamento. Inspirados pelo pai, abriram a empresa "Mario Bros. Plumbing". Mario, o mais velho, é
+                corajoso e otimista, enquanto Luigi, mais tímido, destaca-se pela atenção aos detalhes e habilidades
+                técnicas. Juntos, formam uma dupla imbatível, admirada não só pela competência, mas também pela
+                integridade e dedicação à comunidade.</p>
+            <p class="fins">Juntos, Mario e Luigi formam uma dupla imbatível no mundo do encanamento. Eles são admirados não apenas
+                por suas competências profissionais, mas também por seu caráter íntegro e disposição para ajudar a
+                comunidade. Seja resolvendo emergências hidráulicas ou oferecendo um sorriso e palavras de conforto,
+                Mario e Luigi são os heróis anônimos do cotidiano, sempre prontos para transformar qualquer contratempo
+                em uma aventura memorável.</p>
+
+            <button onclick="mostrarForm()" class="about">Entre em contato</button>
+        </div>
+        
+    <div>
+            <img src="./img/backgroud.jpeg" alt="Logo da turma" class="imagem-backgroud">
+        </div>
+    </div>
+    
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://wa.me/5519982165969?text=%5C%22Ol%C3%A1%2C+quero+ajuda+dos+irm%C3%A3os+M%C3%A1rio+e+Luigi%21%5C%22"
+        class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link para o whatsapp ">
+    </a>
+
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/BdQedchuOXe" method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Seu Nome" type="text" name="Nome">
+        <input placeholder="Seu Telefone" type="tel" name="Telefone">
+        <textarea placeholder="Relate Seu Problema Aqui..." name="Dúvidas"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
